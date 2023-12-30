@@ -22,7 +22,7 @@ author: annoyedrobot
 navbar-links:
   About Me: "aboutme"
   Blog:
-    - Posts: "blog"
+    - Posts: "index.html"
     - Search: "search"
     - Tags: "tags"
     - RSS: "feed.xml"
