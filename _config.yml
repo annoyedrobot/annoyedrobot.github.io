@@ -20,7 +20,7 @@ author: annoyedrobot
 ###############################################
 
 navbar-links:
-  Home: 'index.html'
+  Home: ''
   About Me: 'aboutme'
   Blog:
     - Posts: '/blog/index.html'
@@ -245,7 +245,7 @@ site-css:
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: '%d-%m-%Y'
+date_format: '%d/%m/%Y'
 
 # Facebook App ID
 #fb_app_id: ""
