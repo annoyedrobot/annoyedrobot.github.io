@@ -1,3 +1,25 @@
 .post-preview .post-read-more {
   font-weight: 600;
 }
+
+@media (min-width: 1200px) {
+  .intro-header {
+    margin-top: 8.125rem;
+  }
+  .intro-header.big-img {
+    margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
+  }
+  .intro-header.big-img .page-heading,
+  .intro-header.big-img .post-heading {
+    padding: 9.375rem 0;
+  }
+  .intro-header .page-heading h1 {
+    font-size: 4rem;
+  }
+  .intro-header .post-heading h1 {
+    font-size: 3.125rem;
+  }
+  .intro-header.big-img .img-desc {
+    font-size: 0.875rem;
+  }
+}
