@@ -37,7 +37,7 @@ subtitle: Blog
       {% endif %}
       <p class="post-meta">
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %} {{
-        post.date | date: date_format }}
+        post.date | date: "%d.%m.%Y" }}
       </p>
 
       {% if thumbnail != "" %}
@@ -63,7 +63,7 @@ subtitle: Blog
         <br /><br /><a
           href="{{ post.url | absolute_url }}"
           class="post-read-more"
-          >[Read&nbsp;More]</a
+          >Read&nbsp;More</a
         >
         {% endif %}
       </div>
