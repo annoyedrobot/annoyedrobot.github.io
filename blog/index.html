@@ -36,7 +36,7 @@ title: Blog
       {% endif %}
       <p class="post-meta">
         {% assign date_format = site.date_format | default: "%B %-d, %Y" %} {{
-        post.date | date: "%d.%m.%Y" }}
+        post.date | date: date_format }}
       </p>
 
       {% if thumbnail != "" %}
